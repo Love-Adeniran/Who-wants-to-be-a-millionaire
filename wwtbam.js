@@ -27,3 +27,5 @@ logIn.addEventListener('click',()=>{
        alert('Incorrect name or Password!');
     }
 })
+
+const add=()=> {window.location.href="addQ.html";}

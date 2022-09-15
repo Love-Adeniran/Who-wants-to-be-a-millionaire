@@ -9,7 +9,27 @@
 </head>
 <body style="background-image: url(/wwtbamImages/wwtbam3.jpeg);" >
     
-    <div class="w-50 mt-5 ms-5 ps-5 pt-5 pb-5 pe-0 bg-success">
+      <div class="container-fluid  mt-0 p-5 border shadow row" id="loginAdmin">
+        <div class="p-5 d-block  m-5 form1 ">
+                <div class="m-2 p-2">
+                    <h1 class="text-primary">Admin Login</h1>
+                </div>
+                <div class="m-2 p-2">
+                    <label for="adminname" class="text-primary">Name:</label>
+                    <input type="text" placeholder="Name" id="adminname" class="d-block mb-2 form-control">
+                    <label for="adminpassword" class="text-primary">Password:</label>
+                    <input type="text" placeholder="Password" id="adminpassword" class="d-block mt-2 mb-2 form-control">
+                </div>
+                <div class="ms-3 mb-2 ">
+                    <button class="btn-primary text-light border-0 rounded btn" id="login">Login </button>
+                </div>
+            
+        </div>
+
+
+
+    
+    <!-- <div class="w-50 mt-5 ms-5 ps-5 pt-5 pb-5 pe-0 bg-success">
         <h3 class="text-white">Add Questions</h3>
         <input type="text" class="d-block w-75 mb-4" placeholder="Question" id="">
         <input type="text" class="d-block w-75 mb-4" placeholder="Option1"  id="">
@@ -17,7 +37,8 @@
         <input type="text" class="d-block w-75 mb-4" placeholder="Option3" id="">
         <input type="text" class="d-block w-75 mb-4" placeholder="Option4" id="">
         <button onclick="addquestion()">Add Question</button>
-    </div>
-
+    </div> -->
+    <script src="wwtbamAdmin.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 </body>
 </html>

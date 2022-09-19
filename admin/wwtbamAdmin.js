@@ -47,8 +47,8 @@ logIn.addEventListener('click',()=>{
     }
     else if(adminName== adminDetails.adminUserName && adminPassword== adminDetails.adminUserpassword){
         alert('login Successful!');
-        // window.location.href = "admin\wwtbamAdmin.html"
-        loginAdmin.style.display= "none"
+        window.location.href = "../addQ.html"
+        // loginAdmin.style.display= "none"
     }
     else{
        alert('Incorrect name or Password!');
